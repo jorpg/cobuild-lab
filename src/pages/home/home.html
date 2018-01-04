@@ -1,0 +1,53 @@
+<ion-header>
+  <ion-navbar>
+    <ion-header>
+  <ion-toolbar>
+    <ion-title>
+      <img class="img-iso" src="./assets/img/iso.png" alt="">
+      <ion-title>
+            <ion-select [(ngModel)]="gaming">
+              <ion-option value="nes">NES</ion-option>
+              <ion-option value="n64">Nintendo64</ion-option>
+              <ion-option value="ps">PlayStation</ion-option>
+              <ion-option value="genesis">Sega Genesis</ion-option>
+              <ion-option value="saturn">Sega Saturn</ion-option>
+              <ion-option value="snes">SNES</ion-option>
+            </ion-select>
+      </ion-title>
+    </ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only color="royal" (click)="tread()">
+        <ion-icon name="add"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+    <!-- <ion-title>
+          <ion-select [(ngModel)]="gaming">
+            <ion-option value="nes">NES</ion-option>
+            <ion-option value="n64">Nintendo64</ion-option>
+            <ion-option value="ps">PlayStation</ion-option>
+            <ion-option value="genesis">Sega Genesis</ion-option>
+            <ion-option value="saturn">Sega Saturn</ion-option>
+            <ion-option value="snes">SNES</ion-option>
+          </ion-select>
+    </ion-title> -->
+
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-list>
+
+    <ion-item navPush="Chat"
+              [navParams]="toUser">
+      <ion-avatar item-left>
+        <img src="./assets/to-user.png">
+      </ion-avatar>
+      <h2>Hancock</h2>
+      <p>If at first you don’t succeed, call it version 1.0</p>
+    </ion-item>
+  </ion-list>
+</ion-content>
