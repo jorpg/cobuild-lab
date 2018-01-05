@@ -9,4 +9,20 @@ page-home {
     color: #264a60;
     background-color: transparent;
   }
+  // .toolbar-background-md {
+  //   border-color: #b2b2b2;
+  //   background: #ffffff;
+  //   color: #333;
+  // }
+  .toolbar-title-md {
+    padding: 0 12px;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #333;
+  }
+  .bar-button-default-md, .bar-button-clear-md-default, .bar-button-md-default {
+    color: #999;
+    background-color: transparent;
+  }
+
 }

@@ -68,7 +68,7 @@ var TabsPage = (function () {
 }());
 TabsPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicPage */])(),
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"/Users/4geeks/workspace/ionic3-chat/src/pages/tabs/tabs.html"*/'<ion-tabs>\n  <ion-tab [root]="tab1Root" tabIcon="md-chatbubbles"></ion-tab>\n  <ion-tab [root]="tab2Root" tabIcon="md-basket"></ion-tab>\n  <ion-tab [root]="tab3Root" tabIcon="md-information-circle"></ion-tab>\n  <ion-tab [root]="tab4Root" tabIcon="md-person"></ion-tab>\n  <!--<ion-tab [root]="tab3Root" tabTitle="Contact" tabIcon="contacts"></ion-tab>-->\n</ion-tabs>\n'/*ion-inline-end:"/Users/4geeks/workspace/ionic3-chat/src/pages/tabs/tabs.html"*/
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"/Users/4geeks/workspace/cobuild-lab/src/pages/tabs/tabs.html"*/'<ion-tabs style="background-color: #fff;">\n  <ion-tab [root]="tab1Root" tabIcon="ios-chatboxes-outline"></ion-tab>\n  <ion-tab [root]="tab2Root" tabIcon="ios-basket-outline"></ion-tab>\n  <ion-tab [root]="tab3Root" tabIcon="ios-information-circle-outline"></ion-tab>\n  <ion-tab [root]="tab4Root" tabIcon="ios-person-outline"></ion-tab>\n  <!--<ion-tab [root]="tab3Root" tabTitle="Contact" tabIcon="contacts"></ion-tab>-->\n</ion-tabs>\n'/*ion-inline-end:"/Users/4geeks/workspace/cobuild-lab/src/pages/tabs/tabs.html"*/
     }),
     __metadata("design:paramtypes", [])
 ], TabsPage);

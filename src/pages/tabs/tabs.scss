@@ -2,4 +2,17 @@ page-tabs{
   .tabs-ios .tab-button[aria-selected=true] .tab-button-icon {
     color: #e86c29;
   }
+  .tabs-ios .tabbar {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-top: 0.55px solid rgba(0, 0, 0, 0.3);
+    background: #ffffff !important;
+}
+  .toolbar-background-md {
+      border-color: #b2b2b2;
+      background: #ffffff;
+      color: #333;
+  }
 }
