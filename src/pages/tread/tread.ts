@@ -5,6 +5,7 @@ import {NavController, IonicPage} from 'ionic-angular';
 @Component({
   selector: 'page-tread',
   templateUrl: 'tread.html'
+  
 })
 export class TreadPage {
 
